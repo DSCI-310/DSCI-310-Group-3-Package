@@ -2,8 +2,7 @@ import pytest
 import numpy as np
 import pandas as pd
 import sys
-sys.path.append(".")
-from src.regression import regression
+from group3package.regression import regression
 
 # setup sample data
 x = [1,2]
