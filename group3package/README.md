@@ -16,7 +16,7 @@ $ pip install group3package
 
 ## Usage
 
-- TODO
+- Meant to be used within our data analysis project. Installing this package gives access to the functions included in src/group3package. To use the code for your own purposes, see the contributing file for ways to install/manage it.
 
 ## Contributing
 
