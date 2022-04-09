@@ -16,11 +16,8 @@ df = pd.DataFrame(data)
 expected_a = pd.DataFrame(data_a)
 expected_b = pd.DataFrame(data_b)
 
-#Expect the Age column to be removed from the data frame
-assert expected_a.equals(rc(df, 'Age'))
+assert expected_a.equals(rc(df, 'Age')), "Expect the Age column to be removed from the data frame"
 
-#Expect the Name column to be removed from the data frame
-assert expected_b.equals(rc(df, 'Name'))
+assert expected_b.equals(rc(df, 'Name')), "Expect the Name column to be removed from the data frame"
 
-#Test for wrong input into the function should produce the same data frame as before (no column is removed)
-assert df.equals(rc(df, 'Does_not_exist'))
+assert df.equals(rc(df, 'Does_not_exist')), "Test for wrong input into the function should produce the same data frame as before (no column is removed)"
