@@ -8,6 +8,12 @@ Functions used for exploratory data analysis
 $ pip install group3package
 ```
 
+```github
+1. Download repository
+2. Move into dist folder
+3. run 'pip install group3package-1.0.0-py3-none-any.whl'
+```
+
 ## Usage
 
 - TODO
