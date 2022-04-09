@@ -1,6 +1,0 @@
-Usage:
-
-cd group3package
-poetry env use system
-poetry install
-pytest tests
